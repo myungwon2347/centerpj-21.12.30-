@@ -1,0 +1,21 @@
+.board_write{ float:right; margin-left:4px;}
+.board_write a img{vertical-align:top;}
+.bbsnewf5 a{color:#333;text-decoration:none;}
+.bbsnewf5 a:hover{color:#666;text-decoration:none;}
+.gallery_title{display:block;}
+.att_title font, .board_bgcolor font, .board_bgcolor span{font-weight:bold;}
+.board_comment_bgcolor {background-color:#F6F6F6;}
+td{line-height:20px;}
+@media only screen and (max-width:1220px) {
+.board_read td {padding:20px 5px;}
+.att_title font, .board_bgcolor font, .board_bgcolor span{font-weight:bold !important;}
+.board_list, .board_list td{ text-align:center;}
+.board_list a img{width:32%; max-width:108px; padding:3px 0;}
+.board_write{float:none;text-align:center; margin-top:40px; margin-bottom:20px; margin-left:0;}
+.board_write td{border:0;}
+#ext_search{text-align:center;}
+#search_table{float:none;margin:0 auto;}
+}
+@media only screen and (max-width:767px) {
+.board2 table table{width:99%; position:relative; margin:0 0.5% 15px 0.5%;}
+}
